@@ -26,7 +26,7 @@ songItems.forEach((element, i)=>{
     element.getElementsByTagName("img")[0].src = songs[i].coverPath; 
     element.getElementsByClassName("songName")[0].innerText = songs[i].songName; 
 })
- 
+//changes made by bhavya singla 
 
 // Handle play/pause click
 masterPlay.addEventListener('click', ()=>{
